@@ -1,0 +1,56 @@
+# User specific & automatically generated files #
+#################################################
+/plugins
+/vendors
+/build
+/dist
+/tags
+/logs
+/sso_details
+*.mo
+*.env
+*.env.bak
+
+# IDE and editor specific files #
+#################################
+/nbproject
+*.iml
+.idea
+*.iml
+.vscode/
+jsconfig.json
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+frontend/package-lock.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Local development environment
+/db
+/logs
+latest.sql.gz
+latest_lite.sql.gz
+
+# Python cache
+*.pyc
+
+
+# Ignore virtual env
+*venv/*
+**/venv/**
+
+# Ignore docker-compose.override.yml
+*.override.yml
+*.override.yml.template
