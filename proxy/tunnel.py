@@ -7,7 +7,7 @@ ngrok.set_auth_token(NGROK_AUTH_TOKEN)
 
 
 def create_tunnel() -> NgrokTunnel:
-    return ngrok.connect(DAPS_URL)
+    return ngrok.connect(DAPS_URL, bind_tls=True)
 
 
 def list_tunnels() -> list[NgrokTunnel]:
